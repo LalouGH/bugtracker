@@ -1,0 +1,107 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSauceOne';
+    src: url(../OpenSauceOne-Bold.ttf);
+}
+
+header {
+    background-color: #252525;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .logo {
+    width: 40px;
+    height: 40px;
+    margin: 0px 10px 0px 10px;
+  }
+
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+
+h1 {
+    font-family: OpenSauceOne;
+    text-align: center;
+}   
+
+h2{
+    font-family: OpenSauceOne;
+    text-align: center;
+    color: white;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+label {
+    margin: 5px 0 5px 0;
+    font-family: Poppins;
+    color: white;
+}
+
+p{
+    font-family: Poppins;
+    background-color: red;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0;
+    padding: 5px 0px 5px 0px;
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type='text'], input[type='password']{
+    padding-left: 10px;
+    border-radius: 5px;
+    height: 30px;
+    background-color: white;
+    border: 0px;
+}
+
+input[type='submit']{
+    font-family: Poppins;
+    margin: auto;
+    margin-top: 20px;
+    width: 50%;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+input[type='submit']:hover{
+    background-color: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.80);
+}
+
+.authbox{
+    margin: auto;
+    border-radius: 20px;
+    background-color: #252525;
+    width: calc(60% - 20px);
+    height: fit-content;
+}
+
+.authbox-content{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
