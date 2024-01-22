@@ -1,7 +1,7 @@
 <<?php 
     $username = "root";
     $password = "";
-    try { $db= new PDO('mysql:host=localhost;dbname=u759437353_dblalouadl',$username,$password); }
+    try { $db= new PDO('mysql:host=localhost;dbname=sae203',$username,$password); }
     catch (Exception $e){ die('Erreur: ' . $e->getMessage() ); }
 
     function IDtoLogin($id, $db){
