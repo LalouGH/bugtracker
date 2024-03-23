@@ -1,4 +1,4 @@
-<<?php 
+<?php 
     $username = "root";
     $password = "";
     try { $db= new PDO('mysql:host=localhost;dbname=sae203',$username,$password); }
